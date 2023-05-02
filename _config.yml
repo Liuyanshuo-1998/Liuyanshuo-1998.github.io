@@ -202,7 +202,6 @@ defaults:
       comments: true
       share: true
       related: true
-      tags: true
   # _pages
   - scope:
       path: ""
@@ -288,10 +287,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-collections:
-  tags:
-    output: true
-    permalink: /tags/:name/
+tag_archive:
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
